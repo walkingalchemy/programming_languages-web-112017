@@ -79,7 +79,5 @@ def reformat_languages(langs)
       end
     end
   end
-  binding.pry
-
 end
 reformat_languages(languages_by_style)
