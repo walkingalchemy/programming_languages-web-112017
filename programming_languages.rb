@@ -1,4 +1,4 @@
-require 'pry'
+
 languages_by_style = {
 # style (2) => language (7) => Type (2)
   :oo => {
@@ -80,4 +80,3 @@ def reformat_languages(langs)
     end
   end
 end
-reformat_languages(languages_by_style)
