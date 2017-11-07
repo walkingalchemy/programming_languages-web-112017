@@ -75,3 +75,4 @@ def reformat_languages(languages)
 
 
 end
+reformat_languages(languages_by_style)
