@@ -72,6 +72,7 @@ def reformat_languages(langs)
     languages.each do |language, type|
       binding.pry
       languages_tagged[language]
+    end
   end
 
 
