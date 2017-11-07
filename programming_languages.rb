@@ -65,12 +65,13 @@ tagged_languages = {
   }
 }
 
-def reformat_languages(languages)
+def reformat_languages(langs)
   # your code here
   languages_tagged = {}
-  languages.each do |style, language|
-    binding.pry
-    languages_tagged[language]
+  langs.each do |style, languages|
+    languages.each do |language, type|
+      binding.pry
+      languages_tagged[language]
   end
 
 
