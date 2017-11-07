@@ -70,8 +70,10 @@ def reformat_languages(langs)
   languages_tagged = {}
   langs.each do |style, languages|
     languages.each do |language, type|
+
+      languages_tagged[language] = type
+      languages_tagged[language][:style] = style
       binding.pry
-      languages_tagged[language]
     end
   end
 
