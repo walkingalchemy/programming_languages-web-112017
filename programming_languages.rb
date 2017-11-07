@@ -63,7 +63,7 @@ tagged_languages = {
     :type => "compiled",
     :style => [:functional]
   }
-
+}
 
 def reformat_languages(languages)
   # your code here
