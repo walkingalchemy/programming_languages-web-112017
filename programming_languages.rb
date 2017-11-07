@@ -28,13 +28,13 @@ languages_by_style = {
     :javascript => {
       :type => "interpreted"
     }
- 
+
   }
 }
 
 tagged_languages = {
   # language => Type, Style
-  # 
+  #
   :ruby => {
     :type => "interpreted",
     :style => [:oo]
@@ -71,6 +71,7 @@ def reformat_languages(languages)
   languages.each do |style, language|
     binding.pry
     languages_tagged[language]
-  
-  
+  end
+
+
 end
