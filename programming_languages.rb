@@ -74,8 +74,9 @@ def reformat_languages(langs)
         languages_tagged[language][:style].push(style)
       else
         languages_tagged[language] = type
-        languages_tagged[language][:style][0] = style
-      end  
+        languages_tagged[language][:style] = []
+        languages_tagged[language][:style].push(style)
+      end
     end
   end
   binding.pry
