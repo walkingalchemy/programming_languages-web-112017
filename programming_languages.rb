@@ -75,6 +75,7 @@ def reformat_languages(langs)
       else
         languages_tagged[language] = type
         languages_tagged[language][:style][0] = style
+      end  
     end
   end
   binding.pry
